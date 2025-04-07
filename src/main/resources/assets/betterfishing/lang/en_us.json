@@ -1,4 +1,7 @@
 {
   "item.betterfishing.raw_bluegill": "Raw Bluegill",
-  "item.betterfishing.cooked_bluegill": "Cooked Bluegill"
+  "item.betterfishing.cooked_bluegill": "Cooked Bluegill",
+
+  "creativetab.betterfishing.betterfishingfish": "Better Fishing Fish",
+  "creativetab.betterfishing.betterfishingrods": "Better Fishing Rods"
 }
