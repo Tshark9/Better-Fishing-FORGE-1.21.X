@@ -1,4 +1,4 @@
-package net.tshark9.betterfishing.item;
+package net.tshark9.betterfishing.item.custom;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

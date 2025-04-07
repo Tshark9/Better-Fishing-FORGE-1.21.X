@@ -1,4 +1,4 @@
-package net.tshark9.betterfishing.item;
+package net.tshark9.betterfishing.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -12,9 +12,9 @@ public class ModItems {
         DeferredRegister.create(ForgeRegistries.ITEMS, BetterFishing.MOD_ID);
 
     public static final RegistryObject<Item> RAW_BLUEGILL = ITEMS.register("raw_bluegill",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_BLUEGILL)));
     public static final RegistryObject<Item> COOKED_BLUEGILL = ITEMS.register("cooked_bluegill",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_BLUEGILL)));
 
 
     public static  void register(IEventBus eventBus) {
