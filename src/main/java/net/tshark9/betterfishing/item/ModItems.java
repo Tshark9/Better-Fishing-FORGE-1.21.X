@@ -11,9 +11,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, BetterFishing.MOD_ID);
 
-    public static final RegistryObject<Item> RAWBLUEGILL = ITEMS.register("raw_bluegill",
+    public static final RegistryObject<Item> RAW_BLUEGILL = ITEMS.register("raw_bluegill",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> COOKED_BLUEGILL = ITEMS.register("cooked_bluegill",
+            () -> new Item(new Item.Properties()));
 
 
     public static  void register(IEventBus eventBus) {

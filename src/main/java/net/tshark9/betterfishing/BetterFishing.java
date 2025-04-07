@@ -47,7 +47,9 @@ public class BetterFishing {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.RAWBLUEGILL); }
+            event.accept(ModItems.RAW_BLUEGILL);
+            event.accept(ModItems.COOKED_BLUEGILL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
