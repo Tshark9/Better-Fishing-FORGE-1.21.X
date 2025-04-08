@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_BLUEGILL.get());
                         output.accept(ModItems.COOKED_BLUEGILL.get());
+                        output.accept(ModItems.RAW_COMMON_CARP.get());
+                        output.accept(ModItems.COOKED_COMMON_CARP.get());
 
                     }).build());
 

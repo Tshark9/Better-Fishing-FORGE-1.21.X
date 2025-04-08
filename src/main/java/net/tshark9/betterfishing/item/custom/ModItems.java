@@ -15,6 +15,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_BLUEGILL)));
     public static final RegistryObject<Item> COOKED_BLUEGILL = ITEMS.register("cooked_bluegill",
             () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_BLUEGILL)));
+    public static final RegistryObject<Item> RAW_COMMON_CARP = ITEMS.register("raw_common_carp",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_COMMON_CARP)));
+    public static final RegistryObject<Item> COOKED_COMMON_CARP = ITEMS.register("cooked_common_carp",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_COMMON_CARP)));
 
 
     public static  void register(IEventBus eventBus) {
