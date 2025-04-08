@@ -19,6 +19,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_COMMON_CARP)));
     public static final RegistryObject<Item> COOKED_COMMON_CARP = ITEMS.register("cooked_common_carp",
             () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_COMMON_CARP)));
+    public static final RegistryObject<Item> RAW_BLACK_CRAPPIE = ITEMS.register("raw_black_crappie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_BLACK_CRAPPIE)));
+    public static final RegistryObject<Item> COOKED_BLACK_CRAPPIE = ITEMS.register("cooked_black_crappie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_BLACK_CRAPPIE)));
 
 
     public static  void register(IEventBus eventBus) {

@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.COOKED_BLUEGILL.get());
                         output.accept(ModItems.RAW_COMMON_CARP.get());
                         output.accept(ModItems.COOKED_COMMON_CARP.get());
+                        output.accept(ModItems.RAW_BLACK_CRAPPIE.get());
+                        output.accept(ModItems.COOKED_BLACK_CRAPPIE.get());
 
                     }).build());
 
